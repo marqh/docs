@@ -6,21 +6,24 @@
 Welcome to MetaRelate's documentation!
 ======================================
 
+MetaRelate is a project aiming to deliver metadata interoperbility by relating metadata schemes.
+
+Its primary focus in the early stages of the project is working within the Meteorology and Oceanography domain.
+
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
    gettingStarted/index
+   github/index
    exporting/index
    design/index
    implementation/index
 
 
-Indices and tables
-==================
+Search
+======
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
