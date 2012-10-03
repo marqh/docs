@@ -8,7 +8,7 @@ Contents:
    :maxdepth: 1
 
    storedInfo
-   externalSource
+   externalSources
    useCases
 
 

@@ -17,7 +17,8 @@ Contents:
 
    gettingStarted/index
    exporting/index
-   prefixes/index
+   predicates/index
+   developer/index
 
 
 Search

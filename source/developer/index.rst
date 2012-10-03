@@ -5,7 +5,7 @@ Developing MetaRelate
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    github/index
    design/index
