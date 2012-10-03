@@ -14,24 +14,25 @@ digraph records {
 
 ## class definitions
 
-        mapping [
-	label = "<title> Linkage |+ ID: md5 |<origin>+ origin |+ long name |+ units|<target>+ target "
+   	cflink [
+	label = "<title> CF link |+ ID: md5 |<sn>+ standard_name |<ln>+ long_name |<units>+ units"
 	];
 
-	provenance [
-	label = "<title> Mapping |+ ID: md5 |+ has previous |+ date |+ editor |+ owners |+ watchers|<plink>+ linkage|+ status |+ comment|+ reason"
+        linkage [
+	label = "<title> Linkage |+ ID: md5 |<umlink>+ umlink |<griblink>+ griblink |<cflink>+ cflink "
+	];
+
+	mapping [
+	label = "<title> Mapping |+ ID: md5 |+ has previous |+ date |+ editor |+ owner |+ watcher |<plink>+ linkage|+ status |+ comment|+ reason"
 	];
 
 	release [
 	label = "<title> Release |+ version|+ has previous|+ date|<con>+ constituents|+ standard"
 	];
 
-	cf [
-	label = "CF Namespace"
-	];
 
-	stash [
-	label = "STASH Namespace"
+	um [
+	label = "UM Namespace"
 	];
 
 	grib [
@@ -42,14 +43,14 @@ digraph records {
 
 ## relations
 
-	provenance:plink -> mapping:title;
+	mapping:plink -> linkage:title;
 
-	release:con -> provenance:title
+	release:con -> mapping:title
 
-	mapping:target -> cf
+	linkage:umlink -> um
 
-	mapping:origin -> stash
+	linkage:griblink -> grib
 
-	mapping:origin -> grib
+	linkage:cflink -> cflink
 
 }

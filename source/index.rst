@@ -13,7 +13,7 @@ Its primary focus in the early stages of the project is working within the Meteo
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    gettingStarted/index
    exporting/index

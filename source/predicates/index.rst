@@ -70,7 +70,6 @@ comment
 URI:  http://www.metarelate.net/predicates/index.html#comment
 
 Definition:
-
 Label:  comment
 
 reason
@@ -97,6 +96,23 @@ MetaRelate Formats
 
 MetaRelate defines a number of format predicates enabling the linking of supported metadata schemes
 
+CFlink
+---------
+
+URI:  http://www.metarelate.net/predicates/index.html#CFlink
+
+Definition:
+
+Label:  CFlink
+
+
+.. toctree::
+   :maxdepth: 1
+
+   CF
+
+
+
 UMlink
 ---------
 
@@ -106,14 +122,6 @@ Definition:
 
 Label:  UMlink
 
-CFlink
----------
-
-URI:  http://www.metarelate.net/predicates/index.html#CFlink
-
-Definition:
-
-Label:  CFlink
 
 GRIBlink
 -----------
