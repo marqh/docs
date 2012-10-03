@@ -6,7 +6,7 @@
 Welcome to MetaRelate's documentation!
 ======================================
 
-MetaRelate is a project aiming to deliver metadata interoperbility by relating metadata schemes.
+MetaRelate is a project aiming to deliver metadata interoperbility by relating metadata schemes.  The key purpose is to provide the information necessary to convert the metadata of a dataset from one format to another. 
 
 Its primary focus in the early stages of the project is working within the Meteorology and Oceanography domain.
 
@@ -16,10 +16,8 @@ Contents:
    :maxdepth: 2
 
    gettingStarted/index
-   github/index
    exporting/index
-   design/index
-   implementation/index
+   prefixes/index
 
 
 Search
