@@ -15,7 +15,7 @@ digraph records {
 ## class definitions
 
    	cflink [
-	label = "<title> CF link |+ ID: md5 |<sn>+ standard_name |<ln>+ long_name |<units>+ units"
+	label = "<title> CFlink |+ ID: md5 |<type>+ type |<sn>+ standard_name |<ln>+ long_name |<units>+ units|<cflink>+ CFlink"
 	];
 
         linkage [
@@ -27,7 +27,7 @@ digraph records {
 	];
 
 	release [
-	label = "<title> Release |+ version|+ has previous|+ date|<con>+ constituents|+ standard"
+	label = "<title> Release |+ version|+ hasPrevious|+ date|<con>+ constituents|+ standard"
 	];
 
 

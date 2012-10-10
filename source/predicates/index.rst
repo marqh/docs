@@ -27,14 +27,14 @@ Definition:
 Label:  watcher
 
 
-editor
+creator
 ---------
 
-URI:  http://www.metarelate.net/predicates/index.html#editor
+URI:  http://www.metarelate.net/predicates/index.html#creator
 
 Definition:
 
-Label:  editor
+Label:  creator
 
 status 
 ---------
@@ -46,14 +46,14 @@ Definition:
 Label:  status
 
 
-hasPrevious
+previous
 --------------
 
-URI:  http://www.metarelate.net/predicates/index.html#hasPrevious
+URI:  http://www.metarelate.net/predicates/index.html#previous
 
 Definition:
 
-Label:  hasPrevious
+Label:  previous
 
 creation
 -----------
@@ -81,14 +81,23 @@ Definition:
 
 Label:  reason
 
-link
--------
+linkage
+--------
 
-URI:  http://www.metarelate.net/predicates/index.html#link
+URI:  http://www.metarelate.net/predicates/index.html#linkage
 
 Definition:
 
-Label:  link
+Label:  linkage
+
+saveCache
+----------
+
+URI:  http://www.metarelate.net/predicates/index.html#saveCache
+
+Definition: A flag to indicate that changes exist in the triple store which are not persistant on disk in ttl files.
+
+Label:  saveCache
 
 
 MetaRelate Formats
