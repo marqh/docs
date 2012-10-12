@@ -15,19 +15,19 @@ digraph records {
 ## class definitions
 
    	cflink [
-	label = "<title> CFlink |+ ID: md5 |<type>+ type |<sn>+ standard_name |<ln>+ long_name |<units>+ units|<cflink>+ CFlink"
+	label = "<title> CFlink |ID: md5 |<type>type |<sn>standard_name |<ln>long_name |<units>units|<cflink>CFlink + "
 	];
 
         linkage [
-	label = "<title> Linkage |+ ID: md5 |<umlink>+ umlink |<griblink>+ griblink |<cflink>+ cflink "
+	label = "<title> Linkage |ID: md5 |<umlink>umlink + |<griblink>griblink + |<cflink>cflink + "
 	];
 
 	mapping [
-	label = "<title> Mapping |+ ID: md5 |+ has previous |+ date |+ editor |+ owner |+ watcher |<plink>+ linkage|+ status |+ comment|+ reason"
+	label = "<title> Mapping |ID: md5 |previous |date |editor |owner + |watcher + |<plink>linkage |status |comment |reason "
 	];
 
 	release [
-	label = "<title> Release |+ version|+ hasPrevious|+ date|<con>+ constituents|+ standard"
+	label = "<title> Release |version|previous|date|<con>constituent + |standard"
 	];
 
 
@@ -52,5 +52,7 @@ digraph records {
 	linkage:griblink -> grib
 
 	linkage:cflink -> cflink
+
+	cflink:cflink -> cflink:title 
 
 }
